@@ -27,7 +27,7 @@ class SodaListActivity : AppCompatActivity() {
         viewAdapter = SodaAdapter(sodas, this)
 
 
-        recyclerView = findViewById<RecyclerView>(R.id.recyclerViewBicycles)
+        recyclerView = findViewById<RecyclerView>(R.id.recyclerViewSodas)
         // use a linear layout manager
         recyclerView.layoutManager = viewManager
 

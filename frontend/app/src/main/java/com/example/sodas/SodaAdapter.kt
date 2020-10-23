@@ -34,13 +34,13 @@ class SodaAdapter(var sodaList: ArrayList<Soda>, val context: Context) : Recycle
         val sodaServiceImpl = SodaServiceImpl()
         fun bindView(b: Soda, context: Context){
             val url = "http://192.168.1.49:8080/img/soda-"
-            val txt_format: TextView = itemView.findViewById(R.id.textViewQuantity)
+            val txt_format: TextView = itemView.findViewById(R.id.textViewFormat)
             val txt_name: TextView = itemView.findViewById(R.id.textViewName)
 
-            val img: ImageView = itemView.findViewById(R.id.imageViewBicycle)
+            val img: ImageView = itemView.findViewById(R.id.imageViewSoda)
 
             txt_name.text = b.productName
-            txt_format.text = b.productQuantity.toString()
+            txt_format.text = b.productFormat
 
             val imageUrl = url +sodaServiceImpl.validateSodaForImage(b.productName) + ".png"
             Picasso.with(context).load(imageUrl).into(img);

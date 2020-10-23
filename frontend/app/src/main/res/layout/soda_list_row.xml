@@ -8,7 +8,7 @@
 
 
     <ImageView
-        android:id="@+id/imageViewBicycle"
+        android:id="@+id/imageViewSoda"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginStart="@dimen/fab_margin"
@@ -35,7 +35,7 @@
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/textViewQuantity"
+            android:id="@+id/textViewFormat"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/fab_margin"

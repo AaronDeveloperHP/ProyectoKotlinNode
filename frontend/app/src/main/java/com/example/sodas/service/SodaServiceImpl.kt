@@ -71,7 +71,7 @@ class SodaServiceImpl : ISodaService {
         if(name.toLowerCase().trim()=="powerade" ||name.toLowerCase().trim()=="power"){
             setValor(5);
         }
-        if(name.toLowerCase().trim()=="sweps" ||name.toLowerCase().trim()=="swepps"||name.toLowerCase().trim()=="schweppes" || name.toLowerCase().trim()=="schweps" || name.toLowerCase().trim()=="swchepps"){
+        if(name.toLowerCase().trim()=="sweps" ||name.toLowerCase().trim()=="swepps"||name.toLowerCase().trim()=="schweppes" || name.toLowerCase().trim()=="schweps" || name.toLowerCase().trim()=="swchepps" ||name.toLowerCase().trim()=="schwepps"){
             setValor(6);
         }
         if(name.toLowerCase().trim()=="appletiser" ||name.toLowerCase().trim()=="apletiser"||name.toLowerCase().trim()=="appletaiser" ){
